@@ -1,0 +1,39 @@
+.positive-charge{
+    width: 20px;
+    height: 20px;
+    border-radius: 430px;
+    background-color: red;
+}
+
+.positive-charge p{
+    text-align: center;
+    font-size: large;
+}
+
+.field-line{
+    width: 2px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    z-index: -1;
+}
+.field-line1{
+    transform: rotate(0deg);
+    margin: -90px 0px 0px 9px;
+}
+.field-line2{
+    transform: rotate(90deg);
+    margin: -40px 0px 0px 69px;
+}
+.field-line3{
+    transform: rotate(-90deg);
+    margin: -60px 0px 0px -50px;
+}
+.field-line4{
+    transform: rotate(180deg);
+    margin: 0px 0px 0px 9px;
+}
+
+.charge-box{
+    margin: 100px;
+}
