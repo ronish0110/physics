@@ -1,0 +1,51 @@
+body{
+    background-color: gainsboro;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a:hover{
+    color: blue;
+    transition:all 0.3s;
+    text-shadow: 2px 2px 20px rgb(18, 18, 18);
+}
+.navbar ul li a:hover + .nav-discription{
+    display: flex;
+    position: fixed;
+    margin:0 -50px;
+    opacity: .6;
+}
+
+.nav-discription{
+    /* margin: -100px; */
+    opacity: 0;
+    display: flex;
+    position: fixed;
+    transition: all .2s;
+    z-index: -1;
+    
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 1.5em;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+header p{
+    font-size: 20px;
+}
+
+
